@@ -11,7 +11,7 @@ const otherItems = [
   { name: "calendar_year2", label: "Calendar Year2", section: "transaction" },
   { name: "fiscal_period", label: "Fiscal Period", section: "transaction" },
   { name: "output_metrics", label: "Output Metrics", section: "transaction" },
-  { name: "sap_vendor_id", label: "SAP Vendor ID", section: "seller" },
+ 
   { name: "developer_taid", label: "Developer TAID", section: "seller" },
   { name: "singer", label: "Singer TAID", section: "seller" }
 ];
@@ -51,7 +51,7 @@ const DropZone = ({ title, acceptedSection, fields, onDropField, onRemove }) => 
         isOver && canDrop ? "over" : isOver ? "invalid" : ""
       }`}
     >
-      <h2>{title}</h2>
+      <h3>{title}</h3>
 
       {fields.length === 0 && <p className="empty-text">Drag a field here</p>}
 
