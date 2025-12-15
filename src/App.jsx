@@ -12,7 +12,7 @@ const otherItems = [
   { name: "fiscal_quarter", label: "Fiscal Quarter", section: "transaction" },
   { name: "output_metrics", label: "Output Metrics", section: "transaction" },
   { name: "developer_taid", label: "Developer TAID", section: "seller" },
-  { name: "singer", label: "Singer TAID", section: "seller" }
+  { name: "singetolo", label: "Singer TAID tolo", section: "seller" }
 ];
 
 /* ✅ Draggable Item Component */
