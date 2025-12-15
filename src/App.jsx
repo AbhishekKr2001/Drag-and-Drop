@@ -10,7 +10,7 @@ const FIELD_TYPE = "DRAGGABLE_FIELD";
 const otherItems = [
   { name: "calendar_year2", label: "Calendar Year2", section: "transaction" },
   { name: "fiscal_quarter", label: "Fiscal Quarter", section: "transaction" },
-  { name: "output_metrics", label: "Output Metrics", section: "transaction" },
+  { name: "output_centerics", label: "Output centrics", section: "transaction" },
   { name: "developer_taid", label: "Developer TAID", section: "seller" },
   { name: "singetolo", label: "Singer TAID tolo", section: "seller" }
 ];
