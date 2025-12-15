@@ -12,7 +12,8 @@ const otherItems = [
   { name: "fiscal_period", label: "Fiscal Period", section: "transaction" },
   { name: "output_metrics", label: "Output Metrics", section: "transaction" },
   { name: "sap_vendor_id", label: "SAP Vendor ID", section: "seller" },
-  { name: "developer_taid", label: "Developer TAID", section: "seller" }
+  { name: "developer_taid", label: "Developer TAID", section: "seller" },
+  { name: "singer", label: "Singer TAID", section: "seller" }
 ];
 
 /* ✅ Draggable Item Component */
