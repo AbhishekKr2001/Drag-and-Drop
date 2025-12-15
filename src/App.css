@@ -1,0 +1,164 @@
+/* Layout */
+.page {
+  min-height: 100vh;
+  background: #f3f3f3;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #111;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #111;
+}
+
+.layout {
+  display: flex;
+  gap: 25px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.left-panel {
+  width: 70%;
+}
+
+.right-panel {
+  width: 30%;
+  background: #222;
+  padding: 20px;
+  border: 1px solid #444;
+  border-radius: 12px;
+  color: #fff;
+}
+
+/* Drop zone */
+.drop-zone {
+  background: #1a1a1a;
+  padding: 20px;
+  border: 2px solid #555;
+  border-radius: 14px;
+  color: #fff;
+}
+
+.drop-zone.over {
+  background: #111;
+  border-color: #38df06;
+}
+
+.check-icon {
+  color: #38df06;
+  margin-left: 8px;
+}
+
+.fixed-field {
+  margin-bottom: 12px;
+}
+
+.disabled-input {
+  width: 100%;
+  padding: 8px;
+  background: #333;
+  border: 1px solid #666;
+  border-radius: 6px;
+  color: #bbb;
+}
+
+.custom-title {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.empty-text {
+  text-align: center;
+  padding: 10px;
+  font-style: italic;
+  background: #2b2b2b;
+  border: 1px dashed #bbb;
+  border-radius: 8px;
+  color: #ddd;
+}
+
+/* Draggable item */
+.drag-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #777;
+  border-radius: 10px;
+  background: #fff;
+  margin-bottom: 10px;
+  cursor: grab;
+  transition: background 0.2s, color 0.2s;
+  color: #111;
+}
+
+.drag-item:hover {
+  background: #e6e6e6;
+}
+
+.dragging {
+  opacity: 0.5;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #b30000;
+}
+
+/* Dynamic input box */
+.dynamic-box {
+  background: #262626;
+  border: 1px solid #666;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.dynamic-left {
+  width: 90%;
+}
+
+.input {
+  width: 100%;
+  margin-top: 4px;
+  padding: 8px;
+  border: 1px solid #888;
+  border-radius: 8px;
+  background: #3a3a3a;
+  color: #fff;
+}
+
+.input::placeholder {
+  color: #bbb;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ff6b6b;
+  transition: 0.2s;
+}
+
+.remove-btn:hover {
+  color: red;
+}
+
+/* Complete box */
+.complete-box {
+  padding: 12px;
+  background: #e7ffe7;
+  border: 1px solid #6cc86c;
+  border-radius: 10px;
+  text-align: center;
+  color: #1f421f;
+}
