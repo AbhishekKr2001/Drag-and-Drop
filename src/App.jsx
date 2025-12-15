@@ -11,7 +11,6 @@ const otherItems = [
   { name: "calendar_year2", label: "Calendar Year2", section: "transaction" },
   { name: "fiscal_quarter2", label: "Fiscal Quarter", section: "transaction" },
   { name: "output_metrics", label: "Output Metrics", section: "transaction" },
-  { name: "developer_country", label: "Developer Country", section: "seller" },
   { name: "sap_vendor_id", label: "SAP Vendor ID", section: "seller" },
   { name: "developer_taid", label: "Developer TAID", section: "seller" }
 ];
